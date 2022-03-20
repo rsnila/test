@@ -1,0 +1,12 @@
+create database Hospital_Management;
+use Hospital_Management;
+
+create table Appointment( 
+	ID INT(10) AUTO_INCREMENT, 
+	PHONE char(15), 
+	NAME char(50),
+        APPT_DATE char(30),
+        DOCTOR_NAME char(50),
+	PRIMARY KEY(ID) 
+);
+
